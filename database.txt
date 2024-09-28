@@ -1,0 +1,18 @@
+SQL command to create database nd dropdfatabase
+-------------------------------
+create database name_of_database;
+Pree enter
+
+drop database name_of_database;
+Pree enter
+
+
+SQL command to display list of database
+----------------------------------------
+show databases;
+press enter
+
+
+SQL command to use database
+---------------------------
+use database_name;

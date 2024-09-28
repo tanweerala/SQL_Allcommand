@@ -1,0 +1,23 @@
+JDBC+SQL
+JDBC stands for java database connectivity
+SQL stands structured query kanguage
+
+DBMS(stands for database management systems)
+============================================
+It is a software and it is used to manage database
+Managing database involves
+1)Saving records permanently
+2)Deleteting records
+3)Updating records
+4)Filtering records
+etc
+Few popular DBMS are as follows
+1)Oracle
+2)MySql
+3)MS-SQL server
+etc
+
+ 
+
+
+

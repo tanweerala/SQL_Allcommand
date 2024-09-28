@@ -1,0 +1,14 @@
+Table
+-----
+DBMS software keep records into table
+So table must be created inside current database
+
+Command to create table
+------------------------
+
+create table productdetails(pid int primary key,name varchar(30),brand varchar(30),price int);
+press enter
+
+desc productdetails;
+show tables;
+drop table table_name;

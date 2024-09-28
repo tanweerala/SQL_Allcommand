@@ -1,0 +1,37 @@
+SQL commands are are divided into following four categories
+1)DDL(Data definition language)-->create,alter,drop
+2)DML(Data maniplulation language)-->insert,update,delete
+3)DQL(Data query language)-->select
+4)DCL(Data control language)-->grant,revoke
+
+
+SQL constraints
+================
+We can use folloing constraints in table definition
+1)primary key:This will check duplicacy of the value in the column which contains this constraints.Only one column can be primary key in table
+2)foreign key
+3)check 
+4)unique
+etc
+
+create table employee
+(
+  eid int primary key,
+  emailid varchar(30),
+  name varchar(30) not null,
+  department varchar(30),
+  salary int,
+  unique(emailid),
+);
+
+
+
+
+select * from employee where salary=(select max(salary) from employee where salary<(select max(salary) from employee));
+
+
+
+
+
+
+

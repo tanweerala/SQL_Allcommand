@@ -1,0 +1,34 @@
+SQL commands for records management
+===================================
+1)insert command
+2)delete command
+3)update command
+
+SQL commands to filter records
+==============================
+select command
+
+
+Command to insert record in table
+----------------------------------
+insert into productdetails(pid,name,brand,price) values(101,'Mouse','Logitech',1400);
+or
+insert into productdetails values(101,'Mouse','Logitech',1400);
+
+Command to select records from table
+------------------------------------
+select * from productdetails;
+
+Command to delete records from table
+------------------------------------
+delete from productdetails;//It will delete all record
+or
+delete from productdetails where pid=103;
+
+Command to update records
+-------------------------
+update productdetails set name='abc',brand='xyz',price=1000;
+or
+update productdetails set name='Printer',brand='HP',price=6000 where pid=101
+
+
